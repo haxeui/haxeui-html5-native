@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module id="haxeui-html5" priority="-1">
+    <resources>
+        <resource path="/haxe/ui/backend/html5/_module/styles" prefix="styles" />
+    </resources>
+    <themes>
+        <global>
+            <style resource="styles/main.css" />
+        </global>
+        <default>
+            <style resource="styles/default/main.css" />
+        </default>
+        <native>
+            <style resource="styles/native/main.css" />
+        </native>
+    </themes>
+</module>
